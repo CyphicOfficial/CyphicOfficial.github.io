@@ -39,36 +39,66 @@
 
     <title>CYPHIC</title>
 
-    <link rel="stylesheet" href="https://cyphicofficial.github.io/css/main.css" />
-    <link rel="stylesheet" href="https://cyphicofficial.github.io/css/header.css" />
-    <link rel="stylesheet" href="https://cyphicofficial.github.io/css/index.css" />
-    <link rel="stylesheet" href="https://cyphicofficial.github.io/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cyphicofficial.github.io/css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cyphicofficial.github.io/css/header.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cyphicofficial.github.io/css/footer.css"
+    />
+
+    <script src="./js/navbar.js"></script>
   </head>
   <body style="background-color: #3d388a">
     <!-----HEADER----->
     <header class="header main">
-      <nav>
-        <a class="picHover" href="https://cyphicofficial.github.io/"
-          ><img
-            src="https://cyphicofficial.github.io/images/normal/CyphicLogoClear.png"
-        /></a>
-        <div class="nav-links" id="navLinks">
-          <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#success">Success</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li>
-              <a href="https://cyphicofficial.github.io/contact/">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
       <div class="text-box">
         <h1>CYPHIC</h1>
         <p>The Most Profitable Crypto group</p>
         <a href="" class="hero-btn">Join Waiting List!</a>
       </div>
+      <nav id="navbar" class="nav-bar">
+        <a class="picHover" href="https://cyphicofficial.github.io/"
+          ><img
+            src="https://cyphicofficial.github.io/images/normal/CyphicLogoClear.png"
+        /></a>
+        <div class="navTings">
+          <div class="right">
+            <div class="bars">
+              <a
+                href="javascript::void(0);"
+                class="icon"
+                onclick="navResponsive()"
+              >
+                <img
+                  class="bars-icon"
+                  src="https://estellespaoakville.ca/images/icons/bars.svg"
+                  alt="bars.svg"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="nav-links" id="navLinks">
+            <ul>
+              <li class="hide"><a href="#features">Features</a></li>
+              <li class="hide"><a href="#success">Success</a></li>
+              <li class="hide"><a href="#faq">FAQ</a></li>
+              <li class="hide"><a href="#testimonials">Testimonials</a></li>
+              <li class="hide">
+                <a href="https://cyphicofficial.github.io/contact/"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-----FEATURES----->
@@ -99,7 +129,7 @@
           </p>
         </div>
       </div>
-      <div class="row2">
+      <div class="row">
         <div class="features-col2">
           <h3>Master Guide</h3>
           <p>
@@ -125,7 +155,7 @@
           </p>
         </div>
       </div>
-      <div class="row3">
+      <div class="row">
         <div class="features-col2">
           <h3>Sports betting</h3>
           <p>
@@ -275,31 +305,33 @@
               depth analysis for all projects"
             </p>
             <h3>Anonymous</h3>
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star-half-stroke.svg"
-              alt="star-half-stroke"
-              style="height: 16px; width: auto"
-            />
+            <div class="stars">
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star-half-stroke.svg"
+                alt="star-half-stroke"
+                style="height: 16px; width: auto"
+              />
+            </div>
           </div>
         </div>
         <div class="testimonial-col">
@@ -314,31 +346,33 @@
               with a BETTER version."
             </p>
             <h3>Anonymous</h3>
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
+            <div class="stars">
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+            </div>
           </div>
         </div>
         <div class="testimonial-col">
@@ -351,31 +385,33 @@
               challenges they held!!!"
             </p>
             <h3>Anonymous</h3>
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star.svg"
-              alt="star"
-              style="height: 16px; width: auto"
-            />
-            <img
-              src="https://cyphicofficial.github.io/images/svg/star-half-stroke.svg"
-              alt="star-half-stroke"
-              style="height: 16px; width: auto"
-            />
+            <div class="stars">
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star.svg"
+                alt="star"
+                style="height: 16px; width: auto"
+              />
+              <img
+                src="https://cyphicofficial.github.io/images/svg/star-half-stroke.svg"
+                alt="star-half-stroke"
+                style="height: 16px; width: auto"
+              />
+            </div>
           </div>
         </div>
       </div>
