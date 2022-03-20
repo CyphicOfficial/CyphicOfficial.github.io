@@ -61,14 +61,14 @@
   }
 
   header.contactUs {
-    background: url(https://cyphicofficial.github.io/images/normal/contactUsHeader.jpeg) no-repeat 50% 50%;
+    background: url(https://cyphicofficial.com/images/normal/contactUsHeader.jpeg) no-repeat 50% 50%;
     height: 50vh;
   }
 }
 
 @media screen and (max-width: 600px) {
   header.contactUs {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cyphicofficial.github.io/images/normal/contactUsHeader.jpeg) no-repeat 50% 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cyphicofficial.com/images/normal/contactUsHeader.jpeg) no-repeat 50% 50%;
     background-size: cover;
     height: 50%;
   }

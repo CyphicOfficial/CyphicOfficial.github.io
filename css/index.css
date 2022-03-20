@@ -274,7 +274,7 @@ h3 {
   margin: 100px auto;
   width: 80%;
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(https://cyphicofficial.github.io/images/normal/cta.jpeg) no-repeat 50%
+    url(https://cyphicofficial.com/images/normal/cta.jpeg) no-repeat 50%
       50%;
   background-position: center;
   background-size: cover;
@@ -319,7 +319,7 @@ h3 {
   header.main {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-      url(https://cyphicofficial.github.io/images/normal/header.jpeg) no-repeat
+      url(https://cyphicofficial.com/images/normal/header.jpeg) no-repeat
         100% 50%;
   }
 
@@ -357,7 +357,7 @@ h3 {
   header.main {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cyphicofficial.github.io/images/normal/header.jpeg) no-repeat
+      url(https://cyphicofficial.com/images/normal/header.jpeg) no-repeat
         50% 50%;
   }
 
